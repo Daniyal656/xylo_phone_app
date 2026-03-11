@@ -2,9 +2,14 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 
-class Home extends StatelessWidget {
+class Home extends StatefulWidget {
   const Home({super.key});
 
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     final daniyal = AudioPlayer();
@@ -16,7 +21,7 @@ class Home extends StatelessWidget {
               children: [
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note1.wav"));
+                    daniyal.play(AssetSource("music/note1.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -26,7 +31,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note2.wav"));
+                    daniyal.play(AssetSource("music/note2.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -36,7 +41,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note3.wav"));
+                    daniyal.play(AssetSource("music/note3.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -46,7 +51,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note4.wav"));
+                    daniyal.play(AssetSource("music/note4.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -56,7 +61,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note5.wav"));
+                    daniyal.play(AssetSource("music/note5.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -66,7 +71,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note6.wav"));
+                    daniyal.play(AssetSource("music/note6.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -76,7 +81,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note7.wav"));
+                    daniyal.play(AssetSource("music/note7.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -90,7 +95,7 @@ class Home extends StatelessWidget {
               children: [
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note7.wav"));
+                    daniyal.play(AssetSource("music/note7.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -100,7 +105,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note6.wav"));
+                    daniyal.play(AssetSource("music/note6.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -110,7 +115,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note5.wav"));
+                    daniyal.play(AssetSource("music/note5.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -120,7 +125,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note4.wav"));
+                    daniyal.play(AssetSource("music/note4.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -130,7 +135,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note3.wav"));
+                    daniyal.play(AssetSource("music/note3.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -140,7 +145,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note2.wav"));
+                    daniyal.play(AssetSource("music/note2.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
@@ -150,7 +155,7 @@ class Home extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: (){
-                    daniyal.play(AssetSource("music/note1.wav"));
+                    daniyal.play(AssetSource("music/note1.mp3"));
                   },
                   child: Container(
                     height: MediaQuery.sizeOf(context).height*0.14,
